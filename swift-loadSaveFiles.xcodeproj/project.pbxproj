@@ -18,6 +18,7 @@
 		977348512740DC4300B14F6D /* swift_loadSaveFilesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977348502740DC4300B14F6D /* swift_loadSaveFilesUITestsLaunchTests.swift */; };
 		9773485E27419DCC00B14F6D /* ProjectTextFile.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9773485D27419DCC00B14F6D /* ProjectTextFile.txt */; };
 		977348632741A64900B14F6D /* GRSFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977348622741A64900B14F6D /* GRSFileManager.swift */; };
+		977348652742128800B14F6D /* mainViewModle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977348642742128800B14F6D /* mainViewModle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		977348502740DC4300B14F6D /* swift_loadSaveFilesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_loadSaveFilesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9773485D27419DCC00B14F6D /* ProjectTextFile.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ProjectTextFile.txt; sourceTree = "<group>"; };
 		977348622741A64900B14F6D /* GRSFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRSFileManager.swift; sourceTree = "<group>"; };
+		977348642742128800B14F6D /* mainViewModle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainViewModle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 			children = (
 				9773482D2740DC4100B14F6D /* AppDelegate.swift */,
 				9773482F2740DC4100B14F6D /* SceneDelegate.swift */,
+				977348642742128800B14F6D /* mainViewModle.swift */,
 			);
 			path = viewModle;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 			files = (
 				977348322740DC4100B14F6D /* ViewController.swift in Sources */,
 				977348632741A64900B14F6D /* GRSFileManager.swift in Sources */,
+				977348652742128800B14F6D /* mainViewModle.swift in Sources */,
 				9773482E2740DC4100B14F6D /* AppDelegate.swift in Sources */,
 				977348302740DC4100B14F6D /* SceneDelegate.swift in Sources */,
 			);
