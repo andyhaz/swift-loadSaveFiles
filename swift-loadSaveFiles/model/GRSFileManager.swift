@@ -1,9 +1,12 @@
 //
 //  File.swift
 //  swift-loadSaveFiles
-//
+// version 0.1
 //  Created by andyhaz on 11/14/21.
 //
+//        let fm = GRSFileManager(fileType: ".txt", localFileName: "ProjectTextFile")
+//        let fileData:String = fm.open_file(fileName: "Test")
+//  `     print(fileData)
 
 import Foundation
 
@@ -20,9 +23,9 @@ class GRSFileManager{
 
     func open_file(fileName:String) -> String {
         // code here
-        var readString = "" // Used to store the file contents
+        var readString = fileName // Used to store the file contents from the function call
         let fileURL = DocumentDirURL.appendingPathComponent(fileName).appendingPathExtension(fileType)
-        print("FilePath: \(fileURL.path)")
+        print("FilePath: \(fileURL.path)")//show the path
         do {
             // Read the file contents
             readString = try String(contentsOf: fileURL)
